@@ -45,10 +45,10 @@ const cnTable = [
   "k'"
 ]
 
-const transliterate = (str) => {
+const ka2ka = (str) => {
   let res = ''
 
-  str = str.toLowerCase()
+  str = String(str).toLowerCase()
 
   for (let i = 0; i < str.length;) {
     const c3 = str.slice(i, i + 3)
@@ -67,4 +67,4 @@ const transliterate = (str) => {
   return res
 }
 
-export default transliterate
+export default ka2ka
