@@ -47,15 +47,17 @@ const cnTable = [
 
 const transliterate = (str) => {
   let res = ''
-  
+
+  str = str.toLowerCase()
+
   for (let i = 0; i < str.length;) {
     const c3 = str.slice(i, i + 3)
     const c2 = str.slice(i, i + 2)
     const cN = cnTable.find(el => el === c2 || el === c3)
     
     if (cN) {
-      cN.length === 3 ? i += 3 : i += 2
       res = res.concat(letters[cN].ka)
+      cN.length === 3 ? i += 3 : i += 2
     } else {
       res = res.concat(letters[str[i]]?.ka || str[i])
       i++
