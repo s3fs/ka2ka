@@ -1,6 +1,6 @@
 {
   "name": "ka2ka",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "type": "module",
   "description": "Transliterate Georgian written in Latin letters to Georgian script",
   "main": "ka2ka.js",
