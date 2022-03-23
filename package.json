@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Transliterate Georgian written in Latin letters to Georgian script",
-  "main": "transliterate.js",
+  "main": "ka2ka.js",
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "keywords": [
     "transliterate",
-    "gergian",
+    "georgian",
     "latin"
   ],
   "author": "s3fs",
