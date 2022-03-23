@@ -1,0 +1,19 @@
+{
+  "name": "ka2ka",
+  "version": "1.0.0",
+  "description": "Transliterate Georgian written in Latin letters to Georgian script",
+  "main": "transliterate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "transliterate",
+    "gergian",
+    "latin"
+  ],
+  "author": "s3fs",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
